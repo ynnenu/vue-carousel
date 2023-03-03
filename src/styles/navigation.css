@@ -1,0 +1,50 @@
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  background: var(--vc-nav-background);
+  border-radius: var(--vc-nav-border-radius);
+  width: var(--vc-nav-width);
+  height: var(--vc-nav-height);
+  text-align: center;
+  font-size: var(--vc-nav-height);
+  padding: 0;
+  color: var(--vc-nav-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 0;
+  cursor: pointer;
+  margin: 0 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel__prev:hover,
+.carousel__next:hover {
+  color: var(--vc-nav-color-hover);
+}
+
+.carousel__next--disabled,
+.carousel__prev--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.carousel__prev {
+  left: 0;
+}
+
+.carousel__next {
+  right: 0;
+}
+
+.carousel--rtl .carousel__prev {
+  left: auto;
+  right: 0;
+}
+
+.carousel--rtl .carousel__next {
+  right: auto;
+  left: 0;
+}
