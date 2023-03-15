@@ -1,6 +1,6 @@
 {
-  "name": "ls",
-  "version": "0.3.12",
+  "name": "vue-carousel-style",
+  "version": "0.4.14",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw & npm run docs:dev",

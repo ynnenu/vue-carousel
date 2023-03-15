@@ -18,13 +18,13 @@
 .carousel__pagination-button::after {
   display: block;
   content: '';
-  width: var(--vc-pgn-width);
-  height: var(--vc-pgn-height);
-  border-radius: var(--vc-pgn-border-radius);
+  width: 7px;
+  height: 7px;
+  border-radius:7px;
   background-color: var(--vc-pgn-background-color);
 }
 
 .carousel__pagination-button:hover::after,
 .carousel__pagination-button--active::after {
-  background-color: var(--vc-pgn-active-color);
+  background-color: #2FA3C4;
 }

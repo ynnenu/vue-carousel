@@ -10,7 +10,7 @@ Modern lightweight Vue 3 carousel component revamped and styled!
 
 The whole component was built by: https://ismail9k.github.io/ and style by me for a modern feel and look!
 
-https://ismail9k.github.io/vue-carousel-style-style/
+https://ismail9k.github.io/vue-carousel-style/
 
 ## Features
 
@@ -53,8 +53,8 @@ yarn add vue-carousel-style
 
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
-import 'vue-carousel-style-style/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue-carousel-style-style'
+import 'vue-carousel-style/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue-carousel-style'
 
 export default {
   name: 'App',
