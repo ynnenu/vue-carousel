@@ -1,6 +1,6 @@
 {
-  "name": "vue3-carousel",
-  "version": "0.2.12",
+  "name": "ls",
+  "version": "0.3.12",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -cw & npm run docs:dev",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ismail9k/vue3-carousel.git"
+    "url": "git+https://github.com/ynnenu/vue-carousel"
   },
   "main": "dist/carousel.js",
   "module": "dist/carousel.es.js",
@@ -58,8 +58,18 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions",
+    "last 3 versions",
     "not dead"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "description": "Modern lightweight Vue 3 carousel component revamped and styled!",
+  "bugs": {
+    "url": "https://github.com/ynnenu/vue-carousel/issues"
+  },
+  "homepage": "https://github.com/ynnenu/vue-carousel#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "author": ""
 }

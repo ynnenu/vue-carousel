@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Vue3-Carousel
+  name: vue-carousel-style
   text: For Your Next Awesome Project
   tagline: Flexible, responsive, and highly customizable Vue carousel component to suit almost all your use cases
 
@@ -24,7 +24,7 @@ footer: MIT Licensed
 
 meta:
   - name: og:title
-    content: Vue3-carousel
+    content: vue-carousel-style
   - name: og:description
     content: A customizable accessible carousel slider optimized for Vue 3
 ---
